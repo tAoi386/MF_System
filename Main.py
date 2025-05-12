@@ -16,7 +16,6 @@ import random
 import sqlite3
 
 
-#测试提交   哈哈哈
 
 def resource_path(relative_path):
     # 总是使用exe同级目录，确保数据文件存取在外部

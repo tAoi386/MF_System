@@ -39,6 +39,9 @@ def ensure_data_files():
         data_dir = resource_path('data')
         print(f"数据目录路径: {data_dir}")
         
+
+
+        
         if not os.path.exists(data_dir):
             print(f"数据目录不存在，正在创建: {data_dir}")
             os.makedirs(data_dir, exist_ok=True)
